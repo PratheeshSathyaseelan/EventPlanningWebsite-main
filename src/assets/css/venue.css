@@ -1,0 +1,43 @@
+.venue-navbar {
+    background-color: black;
+  color: rgb(6, 5, 5);
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  .venue-nav{
+    width: 100%;
+  }
+  .venue-whole{
+    height: 100%;
+    background-color: rgb(33, 33, 33);
+  }
+.venue-cards{
+    display: flex;
+    flex-direction: column;
+
+}
+  .venue-card1 {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border: 1px solid #ecbddf; 
+    border-radius: 8px;
+    margin: 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+.venue-card-left{
+    flex:1;
+}
+.venue-card-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end ;
+    margin-right: 0;
+}
+.venue-card-right button{
+    margin-right: 15%;
+}

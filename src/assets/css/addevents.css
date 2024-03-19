@@ -1,0 +1,102 @@
+/* Add these styles to your existing CSS */
+
+.mydiv {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .add-event-div {
+    background-color: rgba(255, 255, 255, 0.9); /* 0.9 for a slightly darker but still transparent background */
+    color: rgb(29, 29, 29);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 400px;
+    max-width: 100%;
+  }
+  .add-event-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .add-event-form select,
+  .add-event-form input,
+  .add-event-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .add-event-form select:hover,
+  .add-event-form input:hover,
+  .add-event-form textarea:hover,
+  .add-event-form select:focus,
+  .add-event-form input:focus,
+  .add-event-form textarea:focus {
+    outline: none;
+    border-color: #f78dd9;
+  }
+  
+  .add-event-form button {
+    width: 100%;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    background-color: #f78dd9;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .add-event-form button:hover {
+    background-color: #f66693;
+  }
+  
+  .add-event-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .add-event-form .MuiFormControl-root {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .add-event-form .MuiInputBase-input {
+    padding: 10px;
+  }
+  
+  .add-event-form .MuiInputLabel-root {
+    font-size: 14px;
+  }
+  
+  .add-event-form .MuiFormHelperText-root {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  .add-event-form .MuiInput-underline:before,
+  .add-event-form .MuiInput-underline:after {
+    border-bottom: 2px solid #f78dd9;
+  }
+  
+  .add-event-form .MuiInput-underline:hover:not(.Mui-disabled):before {
+    border-bottom: 2px solid #f78dd9;
+  }
+  .MuiInputBase-input.MuiOutlinedInput-input.MuiInputBase-inputAdornedEnd.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+    
+    padding: 20px;
+  }

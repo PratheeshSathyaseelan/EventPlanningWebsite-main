@@ -1,0 +1,11 @@
+.all-events-inside-div{
+  background-color: rgb(18, 18, 18);
+  
+    width: 100%;
+    height: 100%;
+}
+.al-d3{
+  padding: 40px;
+  color: white;
+  font-size: 30px;
+}

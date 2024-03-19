@@ -1,0 +1,543 @@
+
+
+
+.mydiv {
+    width: 100%;
+    height: 100vh; /* Set the height as needed, vh represents viewport height */
+    background-image: url("https://images.unsplash.com/photo-1504704911898-68304a7d2807?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBhcnR5JTIwcGVvcGxlfGVufDB8fDB8fHww");    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+  }
+.container-login{
+    /* background-image: url("C:\Users\ravin\dummy\src\assets\images\design a light  67874e00-c0e0-4f88-bb16-c30f31f94067.png"); */
+    
+    /* background-repeat: no-repeat; */
+    /* background-color:black; */
+    width: 70%;
+    height: 80%;
+    left: 10%;
+    border-radius: 10px;
+    top:10%;
+    bottom: 10%;
+   
+    color: rgb(7, 7, 7);
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    background: transparent;
+    
+
+}
+.left-container{
+    /* float: left; */
+    margin:auto;
+    width: 45%;
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px 0 0 20px;
+    border: 2px solid #ecbddf; 
+    height: 100%;
+    background-color: rgba(1, 1, 1, 0.7);
+    backdrop-filter: blur(10px);
+}
+.right-container{
+    /* float: right; */
+width: 60%;
+backdrop-filter: blur(15px);  
+border: 2px solid #ecbddf; 
+border-radius: 0px 20px 20px 0;
+height: 100%;
+top: 0;
+color: #ffffff;
+background: transparent;
+}
+.login-info{
+    display: flex;
+    flex-direction: column;
+    max-width: 2000px;
+    /* justify-content: center; */
+    width: 100%;
+  padding: 100px;
+  background: transparent;
+  font-size: 20px;
+  
+  
+}
+.login-info .login-username-input{
+    border-radius: 4px;
+    border-radius: 1px;
+}
+.login-info input{
+    position: relative;
+    margin-bottom: 40px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+
+}
+.login-button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: white;
+    border: 2px solid rgb(182, 53, 187); 
+    background: transparent;/* Button background color */
+    color: #fff; /* Button text color */
+  
+    border-radius: 28px;
+    cursor: pointer;
+    text-decoration: none;
+    max-width: 500px;
+    transition: transform 0.3s ease-in-out;
+
+  }
+  
+  /* Style the button on hover */
+  .login-button:hover {
+    transform: scale(1.1);/* Darker color on hover */
+    
+
+  }
+  
+  .login-left-container-h2{
+    padding-left: 100px;
+    margin-top: 50px;
+    
+    color: #ffffff;
+   }
+
+   .right-container {
+    /* flex: 1; */
+
+    padding: 20px;
+  }
+  
+  /* Additional styles for PartyHub info */
+  .partyhub-info {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #ffffff;
+    max-width: 700px;
+    padding: 50px;
+    background: transparent;
+  }
+  
+  .partyhub-features {
+   
+    color: #767676;
+  }
+  
+  .partyhub-features ul {
+   
+    padding: 0;
+  }
+  
+  .partyhub-features li {
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-left: 20%;
+  }
+
+  .register-left-container {
+    /* transform: translateY(-1000%); */
+    transition: transform 0.5s ease; /* Adjust the duration and easing function as needed */
+}
+
+.left-container.active {
+    /* transform: translateY(0); */
+    color: #f3bdf2;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+.user-date{
+    text-align: right;
+    /* position:absolute; left:1200px; top:30px; */
+    margin-left: 1300px;
+}
+.sidebar.open {
+    transform: translateX(0);
+  }
+  
+.user-side-bar {
+    /* position: fixed; */
+    width: 120px;
+    height: 100vh;
+    background-color: #1f1f1f;
+   margin-top: 30px;
+    font-size: large;
+    color: #f881d8;
+  }
+.menu-button{
+    
+   
+    color: #f9f9f9;
+    padding: 15px ;
+    font-size: 30px;
+    /* width: 100%; */
+    
+    font-weight: bold;
+    /* max-width: 100px; */
+    margin-top: 10px;
+   height: 40px;
+   width: 50px;
+    border: none;
+    margin-left: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+   
+    /* transition: background-color 0.3s ease; */
+    margin-left: 10px;
+    margin-bottom: 20px;
+    
+}
+.user-nav{
+    background: rgba(200, 200, 200, 0.07); 
+   
+    padding-bottom: 5px;
+}
+.user-side-bar li{
+    text-decoration: none;
+    color: rgb(250, 248, 248);
+    font-size: 17px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-right: 30px;
+   
+    
+}
+.user-side-bar ul{
+    list-style: none;
+    font-size: 5rem;
+    font-family: 'poppins';
+    
+}
+.user-side-bar li:hover {
+    cursor: pointer;
+    
+    border-bottom: rgb(162, 144, 179);
+    
+    border-bottom: 2px solid rgb(246, 141, 201);
+
+  }
+
+
+.user-navbar{
+    position: fixed;
+    z-index: 1;
+    top: 60px;
+    left: 0px;
+   
+    overflow-x: hidden;
+    transition: 1s;
+    width: 0;
+}
+.user-content {
+    transition: 1s;
+    transition: transform 1s ease;
+  }
+  
+  .user-content.open {
+    transform: translateX(-120px);
+    
+  }
+  
+
+
+.close-button {
+    background: #1f1f1f;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    margin-left: 70px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .close-button:hover {
+    background-color: #f881d8;
+  }
+  .user-content{
+    font-family: 'poppins','sans seriff';
+    font-size: 1.5rem;
+    margin-left: 50px;
+    line-height: 2;
+    
+  }
+  .your-meetings{
+    padding-bottom: 30px;
+  }
+  .meeting-info-div{
+    background: #1f1f1f;
+  justify-content: center;
+  margin-left: 50px;
+  padding-left: 50px;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  margin-right: 500px;
+ 
+  border-style: solid;
+  
+  border-width: 0px 0px 0px 3px;
+  border-image: linear-gradient(45deg, rgb(244, 184, 231), rgb(134, 26, 132)) 100;
+  border-image-slice: 1;
+  margin-bottom: 40px;
+  }
+  .participant-profile{
+    display: flex;
+
+  }
+    .participant-profile-pic{
+        padding-right: 30px;
+    }
+
+.user-choices{
+    margin-left: 270px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-reschedule{
+    padding-right: 30px;
+    color: rgb(104, 144, 236);
+  
+  }
+  .user-cancel{
+    color: rgb(198, 20, 20);
+  }
+  .user-reschedule:hover{
+    color: rgb(160, 186, 246);
+    cursor: pointer;
+  }
+  .user-cancel:hover{
+    color: rgb(242, 128, 128);
+    cursor: pointer;
+  }
+  .create-new-meeting{
+    
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: auto;
+  
+
+  }
+  .create-new-meeting button{
+    
+    margin-bottom: auto;
+    
+    
+  }
+  /* .user-pic-1{
+    height: 100%;
+    width: 100px;
+    padding: 20px;
+  } */
+  .logo-size{
+    height: 40px;
+    width: 40px;
+  }
+  .participant-profile-pic{
+    height: 25px;
+    width: 25px;
+  }
+
+
+
+
+
+
+
+  
+.home-nav-bar {
+    background: rgba(200, 200, 200, 0.07); 
+    /* position: absolute; */
+  
+  }
+  
+  .home-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+  }
+  
+  .home-nav-logo {
+    background-image: url("../photo/applogoname.png");
+    width: 15%;
+  height: 10vh;  
+
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px 12px 12px 12px;
+
+  }
+  
+  /* .home-nav-list ul {
+    margin: 0;
+    padding: 0;
+  }
+   */
+  .home-nav-list li {
+    margin-left: 10px;
+    display: inline-block;
+  }
+  
+  .home-nav-list li a {
+  
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    
+  }
+  
+  .home-nav-list li a:hover {
+  
+    border-bottom: rgb(162, 144, 179);
+    border-bottom: 1px solid rgb(246, 141, 201);
+
+  }
+  .home-content{
+  
+    display: flex;
+    
+    margin-left: 70px;
+    justify-content: center;
+    /* padding-top: 30%; */
+  /* align-items: center; */
+   
+    line-height: 2;
+  }
+  
+    /* background: rgba(9, 0, 0, 0.05);
+      backdrop-filter: blur(10px);  */
+    .continue-btn-home{
+      background-image: linear-gradient(to right, #690943 0%, #fd5ddd  51%, #f881d8  100%);
+      color: #ffffff;
+      padding-left: 80px;
+      padding-right: 80px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      font-size: 14px;
+     font-family: 'Poppins',sans-serif;
+   
+      font-weight: bold;
+      text-decoration: none;
+      text-transform: uppercase;
+      border: none;
+      border-radius: 8px;
+      /* transition: transform .2s; */
+      cursor: pointer;
+      
+      
+    }
+  /* .continue-btn-home:hover{
+    transform: scale(1.5);
+  } */
+ 
+  .home-side-image{
+    /* background-image: url("C:\Users\ravin\OneDrive\Pictures\side-pc2.png"); */
+    width: 500px;
+    
+  height: 758px;  
+
+  background-size: cover;
+ 
+  border-radius: 12px 12px 12px 12px;
+  }
+  .home-intro-content{
+    padding-top: 130px;
+    font-size: 1.4rem;
+    max-width: 800px;
+    
+    
+  }
+  .main-home{
+    font-family: 'poppins';
+    font-size: 15px;
+  }
+  .home-intro-content-2{
+   
+    font-size: 1.5rem;
+    max-width: 700px;
+    
+  }
+  .home-content-two {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    margin-right: 100px;
+    
+  }
+
+  .step-heading {
+    margin-bottom: 20px;
+  }
+
+
+  .step-left{
+    width: 50%;
+    height: 400px;
+    text-align: left;
+    max-width: 300px;
+    border-style:dashed;
+    
+    border-image: linear-gradient(45deg, rgb(244, 184, 231), rgb(134, 26, 132)) 2;
+    /* border: 1px solid black; */
+  padding: 50px;
+
+   
+  }
+  .step-right{
+    width: 50%;
+    height: 400px;
+    text-align: auto;
+    max-width: 300px;
+    margin-left: auto;
+    border-style:dashed;
+    border-image: linear-gradient(45deg, rgb(244, 184, 231), rgb(134, 26, 132)) 2;
+    /* border: 1px solid black; */
+  padding: 50px;
+
+  
+  }
+.step-about{
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 600px;
+}
+.img-home{
+  width: 100%;
+  height: 300px;
+}
+.main-img-home{
+  margin-top: 150px;
+  width: 550px;
+  height: 400px;
+}
+
+.curved-line {
+  color: #ede7e7;
+    width: 100%;
+    height: 50px;
+    margin-top: -50px;
+  
+}
