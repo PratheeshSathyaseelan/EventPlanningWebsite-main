@@ -5,16 +5,16 @@ const EventList = () => {
   const [events, setEvents] = useState([
     {
       eventId: 1,
-      eventType: 'Birthday Party',
-      description: "Celebrate John's birthday",
+      eventType: 'Success Party',
+      description: "Celebrate John's Success Party",
       charges: 20,
       participantsCount: 10,
       image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Ffuntook.in%2Fkids-birthday-party-planning%2F&psig=AOvVaw1gJ8uqRbmFV67-wPZj0Prs&ust=1706763537290000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCLD_jeXrhoQDFQAAAAAdAAAAABAE', 
     },
     {
       eventId: 2,
-      eventType: 'Wedding',
-      description: "Jane and Mark's wedding celebration",
+      eventType: 'General Meeting',
+      description: "Jane and Mark's General Meeting",
       charges: 50,
       participantsCount: 50,
       image: 'wedding_image.jpg', // Add image path or URL

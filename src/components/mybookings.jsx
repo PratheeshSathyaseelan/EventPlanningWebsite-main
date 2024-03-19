@@ -18,7 +18,7 @@ const MyBookings = () => {
     const dummyBookings = [
       {
         bookingId: 1,
-        eventType: 'Birthday Party',
+        eventType: 'Success Party',
         noOfPersons: 20,
         userId: 'john@example.com',
         venueId: 'Venue A',
@@ -27,7 +27,7 @@ const MyBookings = () => {
       },
       {
         bookingId: 2,
-        eventType: 'Wedding Ceremony',
+        eventType: 'Meeting',
         noOfPersons: 50,
         userId: 'alice@example.com',
         venueId: 'Venue B',

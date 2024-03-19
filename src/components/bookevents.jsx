@@ -24,8 +24,8 @@ const BookEvents = () => {
 
     // Simulate fetching event types
     const sampleEvents = [
-      { eventId: 1, eventType: 'Birthday Party' },
-      { eventId: 2, eventType: 'Wedding' },
+      { eventId: 1, eventType: 'Success Party' },
+      { eventId: 2, eventType: 'General Meeting' },
       // Add more sample data as needed
     ];
     setEventList(sampleEvents);

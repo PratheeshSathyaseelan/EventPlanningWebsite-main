@@ -21,8 +21,8 @@ const AllEventsUser = () => {
         <div className="side-cards">
           <div className="side-card-1">
             <MediaCard
-              title="Birthday Event"
-              content="Content for Birthday Event"
+              title="Success Party"
+              content="Content for Success Party"
               imageSrc={
                 "src/assets/images/Birthday-Cake-with-candles.jpg"
               }
@@ -30,8 +30,8 @@ const AllEventsUser = () => {
           </div>
           <div className="side-card-2">
             <MediaCard
-              title="Marriage Event"
-              content="Content for Marriage Event"
+              title="General Meeting"
+              content="Content for General Event"
               imageSrc={"src/assets/images/images.jpeg"}
             />
           </div>

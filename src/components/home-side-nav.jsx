@@ -10,10 +10,10 @@ import { Link , useNavigate } from 'react-router-dom';
 const generateRandomContent = (eventType) => {
   
   switch (eventType) {
-    case 'Birthday Event':
-      return 'Celebrate the joyous occasion of the Birthday Event with friends and family. This social gathering accommodates up to 50 participants, offering a delightful experience with cake, music, and laughter. The event charges are set at $500.';
-    case 'Marriage Event':
-      return 'Join us in commemorating the union of two hearts at the Marriage Event. This social gathering can host up to 100 participants, providing a blend of love, joy, and unforgettable moments. The event charges stand at $1000.';
+    case 'Success Event':
+      return 'Celebrate the joyous occasion of the Success Party with friends and family. This social gathering accommodates up to 50 participants, offering a delightful experience with cake, music, and laughter. The event charges are set at $500.';
+    case 'Meeting':
+      return 'Join with us in the Meeting. This social gathering can host up to 100 participants, providing a blend of love, joy, and unforgettable moments. The event charges stand at $1000.';
     case 'Corporate Event':
       return 'Participate in our exclusive Corporate Event designed for professionals. With a capacity for 200 participants, the event focuses on networking, presentations, and innovation. The charges for this professional gathering are set at $1500.';
     default:

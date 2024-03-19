@@ -31,14 +31,14 @@ const AllEvents = () => {
           <div className="side-cards">
             <div className="side-card-1">
               <MediaCard
-                title="Birthday Event"
+                title="Success Event"
                 content="Content for Birthday Event"
                 imageSrc={"src/assets/images/Birthday-Cake-with-candles.jpg"}
               />
             </div>
             <div className="side-card-2">
               <MediaCard
-                title="Marriage Event"
+                title="Meeting Event"
                 content="Content for Marriage Event"
                 imageSrc={"src/assets/images/images.jpeg"}
               />

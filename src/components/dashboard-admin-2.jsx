@@ -12,8 +12,8 @@ const DashboardAdmin = () => {
   useEffect(() => {
     // Simulated data for bookings
     const sampleBookings = [
-      { eventType: 'Birthday', noOfPersons: 50, userId: 'John Doe', venueId: 'Venue A', ondate: '2024-02-14' },
-      { eventType: 'Wedding', noOfPersons: 100, userId: 'Jane Smith', venueId: 'Venue B', ondate: '2024-03-20' },
+      { eventType: 'Success Party', noOfPersons: 50, userId: 'John Doe', venueId: 'Venue A', ondate: '2024-02-14' },
+      { eventType: 'Meeting', noOfPersons: 100, userId: 'Jane Smith', venueId: 'Venue B', ondate: '2024-03-20' },
       // Add more sample bookings data as needed
     ];
     setBooking(sampleBookings);

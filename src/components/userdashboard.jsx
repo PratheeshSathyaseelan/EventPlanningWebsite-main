@@ -64,7 +64,7 @@ const gotomypayment =()=>{
                     <div className='ud-d2'>
                         <h2>Welcome</h2>
                       <div className='ud-d3'>
-                        <h4>Elevate Your Occasion: Book Unforgettable Moments for Birthdays, Marriages, and Corporate Gatherings!</h4>
+                        <h4>Elevate Your Occasion: Book Unforgettable Moments for General Meetings, Success Parties, and Corporate Gatherings!</h4>
                        </div>
 
                     
@@ -73,10 +73,10 @@ const gotomypayment =()=>{
                     <div className='side-card-section'>
                         <div className='side-cards'>
                             <div className='side-card-2'>
-                            <MediaCard title="Birthday Event" content="Content for Birthday Event" imageSrc={"src/assets/images/Birthday-Cake-with-candles.jpg"} />
+                            <MediaCard title="Success Party" content="Content for Success Event" imageSrc={"src/assets/images/Birthday-Cake-with-candles.jpg"} />
                             </div>
                             <div className='side-card-2'>
-                            <MediaCard title="Marriage Event" content="Content for Marriage Event" imageSrc={"src/assets/images/images.jpeg"}/>
+                            <MediaCard title="General Meeting" content="Content for General Meeting" imageSrc={"src/assets/images/images.jpeg"}/>
                             </div>
                             <div className='side-card-2'>
                             <MediaCard title="Corporate Event" content="Content for Corporate Event" imageSrc={"src/assets/images/download.jpeg"}/>
