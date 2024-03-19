@@ -8,6 +8,9 @@
   align-items: center;
   backdrop-filter: blur(10px); 
   }
+  .h1{
+    color: rgb(175, 20, 175);
+  }
   
   .partyhub-navbar-title {
     margin: 0;

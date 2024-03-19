@@ -69,7 +69,7 @@ const Register = () => {
         </div>
         <div id="signupForm" className="right-container signup-form">
           <div className="partyhub-info">
-            <h2>PartyHub!</h2>
+            <h2>EventHub!</h2>
             <p>
               Revolutionizing event planning with a central hub for users to showcase services and
               clients to seamlessly book and manage events. A user-friendly experience enhancing

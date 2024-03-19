@@ -6,7 +6,7 @@ const BigNavbar = () => {
     <nav className="venue-navbar">
       <div className="venue-navbar-left">
         
-      <img className="logo-1" src={"src/assets/images/Screenshot 2024-01-31 204130.png"} alt="Party Hub Logo" />
+      <h1 className='h1'>Event Hub!!</h1>
       </div>
         <span className="partyhub-navbar-item"><Link to={`/addvenue`}style={{ textDecoration: 'none' ,color:'white'}}>Add Venue</Link></span>
       {/* <h1 className="partyhub-navbar-title">Party Hub</h1> */}

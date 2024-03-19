@@ -5,11 +5,11 @@ const BigNavbar = () => {
   return (
     <nav className="partyhub-navbar">
       <div className="partyhub-navbar-left">
-        
-      <img className="logo-1" src={"src/assets/images/Screenshot 2024-01-31 204130.png"} alt="Event Hub Logo" />
+        <h1 className='h1'>Event Hub!!</h1>
+      {/* <img className="logo-1" src={"src/assets/images/Screenshot 2024-01-31 204130.png"} alt="Event Hub Logo" /> */}
       </div>
         <span className="partyhub-navbar-item"><Link to={`/login`}style={{ textDecoration: 'none' ,color:'white'}}>Login</Link></span>
-      {/* <h1 className="partyhub-navbar-title">Party Hub</h1> */}
+    
       
     </nav>
   );

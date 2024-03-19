@@ -34,7 +34,7 @@ const MyPayments = () => {
       <div className='my-bookings-container'>
         <nav className="partyhub-navbar">
           <div className="partyhub-navbar-left">
-            <img className="logo-1" src={"src/assets/images/Screenshot 2024-01-31 204130.png"} alt="Party Hub Logo" />
+            <h1 className='h1'>Event Hub!!</h1>
           </div>
         </nav>
         <h3>My Payments:</h3>
