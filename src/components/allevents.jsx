@@ -29,7 +29,7 @@ const AllEvents = () => {
               <MediaCard
                 title="Success Event"
                 content="Content for Birthday Event"
-                imageSrc={"src/assets/images/Birthday-Cake-with-candles.jpg"}
+                imageSrc={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdA21O6QvdY3EGPGnyAlfNXQ2PCC2ItmemrmCCk3rTTy8SvauKoRb0aX5ZZEX9_GegK9s&usqp=CAU"}
               />
             </div>
             <div className="side-card-2">

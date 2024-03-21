@@ -12,7 +12,7 @@ const HomePage = () => {
       <div className='inside-div'>
         <BigNavbar />
         <div className='home-content1'>
-          <div className='home-heading'><h1>Event Hub!</h1></div>
+          <div className='home-heading'><h1>Event Hub!!</h1></div>
          
           <div className='home-heading-2'>
           <h3>Plan Your Events with Style and Joy!</h3>
@@ -25,7 +25,7 @@ const HomePage = () => {
         </div>
         <br></br>
         <br></br>
-        <Footer/>
+        <div><Footer/></div>
         <br></br><br></br><br></br><br></br>    
         <div className='side-card-section'>
           <div className='side-cards'>

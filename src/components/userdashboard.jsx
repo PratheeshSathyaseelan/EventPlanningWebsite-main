@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link , useNavigate } from 'react-router-dom';
 import '../assets/css/userdashboard.css'; 
 import Dchart from './dchart';
+import Footer from './footer';
 import MediaCard from './home-side-nav';
 import { useLocation } from 'react-router-dom';
 const DashboardUser= (props) => {
@@ -92,6 +93,7 @@ const gotomypayment =()=>{
      
             </div>
         </div>
+        {/* <Footer/> */}
         </div>
 
   );

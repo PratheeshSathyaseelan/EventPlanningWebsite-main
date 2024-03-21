@@ -1,19 +1,30 @@
-import React, { useState, useEffect } from 'react';
 import BigNavbar from "./venue-nav-bar";
+import "../assets/css/venue.css";
+import React, { useEffect, useState } from 'react';
 
-const AllVenues = () => {
+const Allvenues = () => {
     const [venueData, setVenues] = useState([]);
 
-    // Sample venue data
-    const sampleVenues = [
-        { venueId: 1, venueName: 'Venue A', location: 'Location A' },
-        { venueId: 2, venueName: 'Venue B', location: 'Location B' },
-        // Add more sample data as needed
-    ];
+    // Assuming you already have some data for venues, either hardcoded or from another source
 
     useEffect(() => {
-        // Simulating fetching data from backend (remove this in actual implementation)
-        setVenues(sampleVenues);
+        // Simulating data fetching from the backend API
+        const fetchVenues = async () => {
+            try {
+                // Simulated response data
+                const responseData = [
+                    { venueId: 1, venueName: "Venue 1", location: "Location 1" },
+                    { venueId: 2, venueName: "Venue 2", location: "Location 2" },
+                    // Add more venues as needed
+                ];
+                // Set the fetched venues into state
+                setVenues(responseData);
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            }
+        };
+
+        fetchVenues();
     }, []);
 
     return (
@@ -32,7 +43,7 @@ const AllVenues = () => {
                         </div>
                         <div className="venue-card-right">
                             <button className="login-button">Edit</button>
-                            <button className="login-button">Delete</button>
+                            {/* Edit button can be added here */}
                         </div>
                     </div>
                 ))}
@@ -41,4 +52,4 @@ const AllVenues = () => {
     );
 }
 
-export default AllVenues;
+export default Allvenues;
