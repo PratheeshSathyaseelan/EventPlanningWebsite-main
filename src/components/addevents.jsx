@@ -30,7 +30,7 @@ const AddEvents = () => {
   return (
     <div className='mydiv'>
       <div className='add-event-div'>
-        <h2>Add Event</h2>
+        <h2>Add Event.</h2>
         <form className ="add-event-form" onSubmit={handleSubmit}>
           <label>
             Event Type:

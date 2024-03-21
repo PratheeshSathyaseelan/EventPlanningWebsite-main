@@ -36,7 +36,7 @@ const AddVenue = () => {
           <br />
 
           <label>
-            Venue Location:
+            Venue Location:.
             <input
               type="text"
               value={venueLocation}

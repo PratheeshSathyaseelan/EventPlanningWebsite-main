@@ -36,7 +36,7 @@ const SidebarAdmin = () => {
                 </li>
                 <li>
                   <Link to={`/bookevents`} className="add-events-link">
-                    Book Events
+                    Book Events.
                   </Link>
                 </li>
                 <li>
