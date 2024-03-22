@@ -7,3 +7,4 @@ import com.example.maven.model.User;
 public interface UserRepo extends JpaRepository<User,Integer>  {
     
 }
+.
